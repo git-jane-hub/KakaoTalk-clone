@@ -1,5 +1,5 @@
 @import "reset.css";
-
+@import "variables.css";
 /* Components */
 @import "components/status.css";
 
@@ -28,7 +28,7 @@ body {
 .btn {
   display: flex;
   flex-direction: column;
-  margin: ;
+  margin-top: 70px;
 }
 .btn input {
   margin: 0 20px;
@@ -36,12 +36,18 @@ body {
   padding: 20px 0;
   border: none;
 }
-.btn input[type="submit"] {
-  margin: 10px 20px;
-  border-radius: 7px;
-  background-color: #000000;
+.btn input::placeholder {
+  padding: 19px 0;
+  color: rgba(0, 0, 0, 0.3);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
 }
-a {
+.btn input[type="submit"] {
+  margin-top: 15px;
+  border-radius: 7px;
+  background-color: var(--yellow);
+  cursor: pointer;
+}
+.btn a {
   display: flex;
   justify-content: center;
   margin-top: 10px;
