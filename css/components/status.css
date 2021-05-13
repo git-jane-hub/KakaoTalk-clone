@@ -1,26 +1,27 @@
 .status-bar {
   position: fixed;
   top: 0;
-  width: 99%;
-  display: flex;
+  width: 100%;
   margin: 5px 5px;
+  display: flex;
+  justify-content: center;
 }
-.status-bar__title {
+.status-bar__column {
   width: 33.3%;
 }
-.status-bar__title:first-child span {
+.status-bar__column:first-child span {
   margin-right: 5px;
 }
-.status-bar__title:nth-child(2) {
+.status-bar__column:nth-child(2) {
   display: flex;
   justify-content: center;
   font-weight: 500;
 }
-.status-bar__title:last-child {
+.status-bar__column:last-child {
   display: flex;
   justify-content: flex-end;
   align-items: center;
 }
-.fa-battery-quarter {
+.status-bar__column .fa-battery-quarter {
   margin: 0 5px;
 }

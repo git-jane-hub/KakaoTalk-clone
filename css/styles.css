@@ -1,54 +1,13 @@
 @import "reset.css";
 @import "variables.css";
+
 /* Components */
 @import "components/status.css";
+
+/* Screens */
+@import "screens/login.css";
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-}
-.header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.header__title {
-  margin: 110px 0 30px 0;
-  font-size: 27px;
-}
-.header__text {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 70%;
-  color: rgba(0, 0, 0, 0.45);
-  font-size: 20px;
-  font-weight: 400;
-}
-.btn {
-  display: flex;
-  flex-direction: column;
-  margin-top: 70px;
-}
-.btn input {
-  margin: 0 20px;
-  font-size: 20px;
-  padding: 20px 0;
-  border: none;
-}
-.btn input::placeholder {
-  padding: 19px 0;
-  color: rgba(0, 0, 0, 0.3);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
-}
-.btn input[type="submit"] {
-  margin-top: 15px;
-  border-radius: 7px;
-  background-color: var(--yellow);
-  cursor: pointer;
-}
-.btn a {
-  display: flex;
-  justify-content: center;
-  margin-top: 10px;
 }

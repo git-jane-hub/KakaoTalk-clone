@@ -10,25 +10,27 @@
   </head>
   <body>
     <div class="status-bar">
-      <div class="status-bar__title">
-        <span class="status-bar__text">No Service</span>
+      <div class="status-bar__column">
+        <span>No Service</span>
         <i class="fas fa-wifi"></i>
       </div>
-      <div class="status-bar__title">
-        <span class="status-bar__text">18:43</span>
+      <div class="status-bar__column">
+        <span>18:43</span>
       </div>
-      <div class="status-bar__title">
-        <span class="status-bar__text">11%</span>
+      <div class="status-bar__column">
+        <span>11%</span>
         <i class="fas fa-battery-quarter fa-lg"></i>
         <i class="fas fa-bolt"></i>
       </div>
     </div>
-    <header class="header">
-      <h1 class="header__title">Welcome to KakaoTalk</h1>
-      <span class="header__text"> If you have a Kakao Account,</span>
-      <span class="header__text">log in with your email or phone number.</span>
+    <header class="welcome-header">
+      <h1 class="welcome-header__title">Welcome to KakaoTalk</h1>
+      <span class="welcome-header__text"> If you have a Kakao Account,</span>
+      <span class="welcome-header__text">
+        log in with your email or phone number.</span
+      >
     </header>
-    <form action="friends.html" method="get" class="btn">
+    <form action="friends.html" method="get" id="login-form">
       <input
         required
         name="username"
