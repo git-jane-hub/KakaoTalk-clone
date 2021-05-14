@@ -13,7 +13,7 @@
   justify-content: space-between;
 }
 .nav__link {
-  color: #2e373d;
+  color: var(--black);
   position: relative;
 }
 .nav__notification {
