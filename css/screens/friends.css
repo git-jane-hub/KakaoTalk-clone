@@ -1,27 +1,14 @@
 #friends-display-link {
   text-align: center;
   display: block;
-  margin-top: 15px;
   padding: 15px 0;
   background-color: #fafafa;
-  font-size: 17px;
-  margin-bottom: 8px;
+  font-size: 18px;
 }
 #friends-display-link i {
-  color: #d5d5d5;
+  margin: 0 8px;
+  opacity: 20%;
 }
 .friends-screen {
-  margin: 0 var(--horizontal-space);
-}
-.friends-screen__channel {
-  margin-top: 17px;
-  border-top: 1px solid #e8e8e8;
-  padding-top: 17px;
-}
-.friends-screen__channel-header {
-  margin-bottom: 20px;
-  display: flex;
-  justify-content: space-between;
-  opacity: 0.5;
-  font-size: 13px;
+  padding: 0 var(--horizontal-space);
 }
