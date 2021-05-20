@@ -22,12 +22,5 @@
   bottom: 15px;
 }
 .nav__dot {
-  color: tomato;
-  background-color: tomato;
-  display: block;
-  height: 6px;
-  width: 6px;
-  border-radius: 3px;
-  position: absolute;
   left: 30px;
 }
