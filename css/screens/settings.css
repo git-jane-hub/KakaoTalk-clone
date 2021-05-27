@@ -1,0 +1,23 @@
+.settings__setting {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 0;
+  font-size: 21px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.03);
+}
+.settings__setting i {
+  margin-right: 18px;
+  opacity: 0.9;
+}
+.settings__setting-column:first-child {
+  display: flex;
+  align-items: center;
+}
+.settings__setting-column:last-child {
+  font-weight: 350;
+  color: var(--grey);
+}
+.settings__setting-culmn-notification {
+  margin-left: 7px;
+}
