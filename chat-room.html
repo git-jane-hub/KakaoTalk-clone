@@ -4,11 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Settings - KakaoTalk</title>
+    <title>Chatroom - KakaoTalk</title>
     <link rel="short icon" sizes="16x16 32x32 64x64" href="img/logo.jpg" />
     <link rel="stylesheet" href="css/styles.css" />
   </head>
-  <body>
+  <body id="chat-room-screen">
     <div class="status-bar">
       <div class="status-bar__column">
         <span>No Service</span>
@@ -25,69 +25,39 @@
     </div>
     <header class="alt-header">
       <div class="alt-header__column">
-        <a href="more.html"><i class="fas fa-chevron-left"></i></a>
+        <a href="chats.html"><i class="fas fa-chevron-left"></i></a>
       </div>
       <div class="alt-header__column">
-        <h1 class="alt-header__column-title">Settings</h1>
+        <h1 class="alt-header__column-title">Olivia</h1>
       </div>
       <div class="alt-header__column">
         <span><i class="fas fa-search"></i></span>
+        <span><i class="fas fa-bars"></i></span>
       </div>
     </header>
-    <main class="main-screen">
-      <ul class="settings-list">
-        <li class="settings__setting">
-          <div class="settings__setting-column">
-            <i class="fas fa-bullhorn"></i>
-            <span>Notices</span>
-            <span class="settings__setting-culmn-notification new">N</span>
+    <main class="main-screen chat-room">
+      <div class="chat-room__timestamp">Friday, May 28, 2021</div>
+      <div class="message-row">
+        <img
+          src="file:///Users/choejaein/Desktop/KakaoTalk-clone/img/bf2.jpg"
+        />
+        <div class="message-row__content">
+          <span class="message-row__author">Olivia</span>
+          <div class="message-row__info">
+            <span class="message-row__bubble">What's up?</span>
+            <span class="message-row__time">18:22</span>
           </div>
-          <div class="settings__setting-column"></div>
-        </li>
-        <li class="settings__setting">
-          <div class="settings__setting-column">
-            <i class="fas fa-flask"></i>
-            <span>Kakao Lab</span>
+        </div>
+      </div>
+      <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <div class="message-row__info">
+            <span class="message-row__bubble">Not much</span>
+            <span class="message-row__time">18:22</span>
           </div>
-          <div class="settings__setting-column"></div>
-        </li>
-        <li class="settings__setting">
-          <div class="settings__setting-column">
-            <i class="fas fa-info-circle"></i>
-            <span>Version</span>
-          </div>
-          <div class="settings__setting-column">
-            <span>Latest Version</span>
-          </div>
-        </li>
-      </ul>
+        </div>
+      </div>
     </main>
-    <nav class="nav">
-      <ul class="nav__list">
-        <li class="nav__btn">
-          <a class="nav__link" href="friends.html"
-            ><i class="far fa-user fa-2x"></i
-          ></a>
-        </li>
-        <li class="nav__btn">
-          <a class="nav__link" href="chats.html"
-            ><span class="nav__notification badge">1</span
-            ><i class="far fa-comment fa-2x"></i
-          ></a>
-        </li>
-        <li class="nav__btn">
-          <a class="nav__link" href="find.html"
-            ><i class="fas fa-search fa-2x"></i
-          ></a>
-        </li>
-        <li class="nav__btn">
-          <a class="nav__link" href="more.html">
-            <span class="nav__dot dot"> </span>
-            <i class="fas fa-ellipsis-h fa-2x"></i
-          ></a>
-        </li>
-      </ul>
-    </nav>
     <script
       src="https://kit.fontawesome.com/62b1f47417.js"
       crossorigin="anonymous"
