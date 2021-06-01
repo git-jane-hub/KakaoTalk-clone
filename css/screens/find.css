@@ -20,6 +20,7 @@
 }
 .open-chat {
   color: #868686;
+  margin-bottom: 70px;
 }
 .open-chat__header {
   display: flex;

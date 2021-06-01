@@ -26,3 +26,27 @@
   display: flex;
   justify-content: space-between;
 }
+@keyframes SuperSexyHotSplahScreen {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+#splash-screen {
+  animation: SuperSexyHotSplahScreen 0.4s ease-in-out forwards;
+  animation-delay: 2s;
+  background-color: var(--yellow);
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+  color: var(--brown);
+}
